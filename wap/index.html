@@ -1,0 +1,189 @@
+<!doctype html>
+<!-- English -->
+<html lang="en">
+
+  <head>
+    <!--字符编码-->
+    <meta charset="utf-8">
+    <!-- SEO -->
+    <title>飞象停车官网</title>
+    <!--优先使用最新版本的IE 和 Chrome 内核-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--为网页定义描述内容:-->
+    <meta name="description" content="飞象停车，是运用共享车位的形式，帮您快速寻找空闲车位，错时出租空闲车位，社交交友的一款停车APP。飞象停车APP提供最优质，最安全，最便宜的共享车位，给用户彻底解决找车位的难题">
+    <!--为搜索引擎定义关键词:-->
+    <meta name="keywords" content="飞象停车，停车位，寻找车位">
+    <!--定义网页作者-->
+    <meta name="author" content="飞象停车" />
+    <!-- H5页面窗口自动调整到设备宽度，并禁止用户缩放页面-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <!-- 当网站添加到主屏幕快速启动方式，可隐藏地址栏，仅针对ios的safari-->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!-- 删除默认的苹果工具栏和菜单栏-->
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <!-- 忽略将页面中的数字识别为电话号码-->
+    <meta content="telephone=no" name="format-detection" />
+    <!-- 忽略Android平台中对邮箱地址的识别-->
+    <meta content="email=no" name="format-detection" />
+    <!--去除浏览器的默认样式-->
+    <link rel="stylesheet" href="css/base.css">
+    <!--自定义的样式文件-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!--JS控制页面缩放比例-->
+    <script src="js/remChange.js"></script>
+    <!--引入jquery文件-->
+    <script src="js/jquery-1.7.2.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script>
+  //声明_czc对象:
+  var _czc = _czc || [];
+  //绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+  _czc.push(["_setAccount", "1269211795"]);
+  </script>
+  </head>
+
+  <body>
+    <div class="footer">
+      <img src="images/logo2.png" class="logo2" />
+      <div class="footer-txt">
+        <p class="fot-txt1">飞象停车-快速匹配您附近的共享车位</p>
+        <p class="fot-txt2"><span class="num5">32.6</span>万车主的选择</p>
+      </div>
+      <img src="images/download2.png" class="download3" />
+    </div>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide bg1">
+          <img src="images/logo.png" class="logo">
+          <img src="images/title.png" class="title">
+          <a href="javascript:;" class="download">
+            <img src="images/download.png">
+          </a>
+          <ul class="txt">
+            <li>
+              <p>更新于<span class="nowDate"></span></p>
+              <div class="showTxt">
+                <img src="images/icon_03.png">
+                <span>开发车位数 <i class="num2">30.1</i> 万</span>
+              </div>
+            </li>
+            <li>
+              <div class="showTxt2">
+                <img src="images/icon_06.png">
+                <span>已服务车主 <i class="num1">32.6</i> 万</span>
+              </div>
+            </li>
+            <li>
+              <div class="showTxt2">
+                <img src="images/icon_08.png">
+                <span>用户已提现 <i class="num3">1567</i> 万</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="swiper-slide bg2">
+          <h1 class="mt">1折车位，</h1>
+          <h1>百万优质车位供您选择！</h1>
+          <p class="mt2">最优价格，极速匹配，解决城市停车难题！</p>
+          <p>车站、写字楼、购物中心、住宅区，核心地段优质车位极速掌握！</p>
+        </div>
+        <div class="swiper-slide bg3">
+          <h1 class="mt">1秒发布，</h1>
+          <h1>空闲车位租金源源不断！</h1>
+          <p class="mt2">空闲车位，生财之道，共享即收益！</p>
+          <p>海量停车用户翘首以待，车位订单极速链接，财富由此创造！</p>
+        </div>
+        <div class="swiper-slide bg4">
+          <h1 class="mt">1键匹配，</h1>
+          <h1>交友，恋爱，白领车主由此邂逅！</h1>
+          <p class="mt2">分享个人魅力，由车位找到知己！</p>
+          <p>打造私人专属高端车友CLUB！</p>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <!--<div class="swiper-pagination"></div>-->
+      <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none' id='cnzz_stat_icon_1269211795'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1269211795' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+    </div>
+
+    <script>
+      //    已服务车主
+      var a = 32.6;
+
+      function addNum1() {
+        a += a * 0.01
+        $('.num1, .num5').html(a.toFixed(2));
+      }
+      setInterval("addNum1()", "864000000")
+      //    开放车位数
+      var b = 30;
+
+      function addNum2() {
+        b += b * 0.01
+        $('.num2').html(b.toFixed(2));
+      }
+      setInterval("addNum2()", "864000000")
+      //    用户已提现
+      var c = 1567;
+
+      function addNum3() {
+        c += c * 0.01
+        $('.num3').html(c.toFixed(0));
+      }
+      setInterval("addNum3()", "864000000")
+
+      //    日期单数补零
+      function Appendzero(obj) {
+        if(obj < 10) return "0" + "" + obj;
+        else return obj;
+      }
+      $(document).ready(function() {
+        var height = $(window).height();
+        $('.box').css("margin-top", height);
+        var mydate = new Date();
+        var year = mydate.getFullYear();
+        var mounth = (mydate.getMonth() + 1);
+        var date = mydate.getDate();
+        var nowDare = year + '年' + Appendzero(mounth) + '月' + Appendzero(date) + '日';
+        $('.nowDate').html(nowDare)
+      })
+    </script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        direction: 'vertical',
+        onSlideChangeEnd: function(swiper) {
+          //         alert(swiper.activeIndex); 
+          if(swiper.activeIndex == 0) {
+            $('.footer').slideUp();
+          } else {
+            $('.footer').slideDown();
+          }
+        }
+      });
+
+      $('.download,.download3').click(function() {
+        if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+          window.location.href = "http://a.app.qq.com/o/simple.jsp?pkgname=com.glavesoft.parking.app&ckey=CK1380710396665";
+        } else if(/(Android)/i.test(navigator.userAgent)) {
+          window.location.href = "http://a.app.qq.com/o/simple.jsp?pkgname=com.glavesoft.parking.app&ckey=CK1380710396665";
+        } else {
+          window.location.href = "http://a.app.qq.com/o/simple.jsp?pkgname=com.glavesoft.parking.app&ckey=CK1380710396665";
+        };
+      });
+      
+      $('.download').on("click",function() {
+        _czc.push(['_trackEvent', '点击', '移动-首页-下载']);
+      });
+      
+      $('.download3').on("click",function() {
+        _czc.push(['_trackEvent', '点击', '移动-底部-下载']);
+      });
+
+    </script>
+  </body>
+
+</html>

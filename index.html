@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>飞象停车官网</title>
+    <!--为网页定义描述内容:-->
+    <meta name="description" content="飞象停车，是运用共享车位的形式，帮您快速寻找空闲车位，错时出租空闲车位，社交交友的一款停车APP。飞象停车APP提供最优质，最安全，最便宜的共享车位，给用户彻底解决找车位的难题">
+    <!--为搜索引擎定义关键词:-->
+    <meta name="keywords" content="飞象停车，停车位，寻找车位">
+    <!--定义网页作者-->
+    <meta name="author" content="飞象停车" />
+  <script type="text/javascript">
+    function browserRedirect() {
+      var sUserAgent = navigator.userAgent.toLowerCase();
+      var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+      var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+      var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+      var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+      var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+      var bIsAndroid = sUserAgent.match(/android/i) == "android";
+      var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+      var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+      //      document.writeln("您的浏览设备为：");
+      if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+        console.log("手机端");
+        window.location.href = "wap/index.html"
+      } else {
+        console.log("pc设备");
+        window.location.href = "pc/index.html"
+      }
+    }
+    browserRedirect();
+  </script>
+  <script>
+  //声明_czc对象:
+  var _czc = _czc || [];
+  //绑定siteid，请用您的siteid替换下方"XXXXXXXX"部分
+  _czc.push(["_setAccount", "1269211795"]);
+  </script>
+  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none' id='cnzz_stat_icon_1269211795'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1269211795' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,494 @@
+/*pc端样式文件*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-image: url(../img/banner.jpg);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  /*position: absolute;
+  top: 0;
+  left: 0;*/
+}
+
+.logo {
+  width: 117px;
+  height: 64px;
+  display: block;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 5%;
+  margin-top: 17px;
+}
+
+.tel {
+  display: block;
+  height: 80px;
+  color: #fff;
+  font-size: 16px;
+  float: right;
+  line-height: 80px;
+  /*background-color: #ccc;*/
+  margin-right: 40px;
+}
+
+.weixin {
+  width: 29px;
+  height: 29px;
+  float: right;
+  background-image: url(../img/weixin.png);
+  background-repeat: no-repeat;
+  margin-right: 34px;
+  margin-top: 26px;
+  position: relative;
+}
+
+.weibo {
+  display: block;
+  width: 29px;
+  height: 29px;
+  float: right;
+  background-image: url(../img/weibo.png);
+  background-repeat: no-repeat;
+  margin-top: 26px;
+  margin-right: 5%;
+}
+
+.header-cont {
+  width: 1206px;
+  height: 250px;
+  /*background-color: #ccc;*/
+  position: absolute;
+  left: 50%;
+  margin-left: -603px;
+  bottom: 35%;
+}
+
+.title {
+  width: 701px;
+  height: 112px;
+  background-image: url(../img/title.png);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.ios {
+  display: block;
+  width: 156px;
+  height: 47px;
+  background-image: url(../img/ios.png);
+  background-repeat: no-repeat;
+  margin-right: 40px;
+}
+
+.anidor {
+  display: block;
+  width: 154px;
+  height: 47px;
+  background-image: url(../img/andor.png);
+  background-repeat: no-repeat;
+  margin-right: 42px;
+}
+
+.download {
+  width: 444px;
+  margin:0 auto;
+  margin-top: 65px;
+}
+
+.download li {
+  float: left;
+}
+
+.er {
+  display: block;
+  width: 50px;
+  height: 47px;
+  background-image: url(../img/er.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header-footer {
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: .6;
+}
+
+.header-footer2 {
+  width: 1206px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -603px;
+  /*background-color: #007AFF;*/
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.list {
+  margin-top: 43px;
+}
+.list li {
+  width: 30%;
+  height: 80px;
+  /*background-color: #ccc;*/
+  float: left;
+  margin-right: 1px;
+}
+
+.list li img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-left: 124px;
+}
+
+.list-text {
+  width: 130px;
+  float: left;
+  margin-left: 25px;
+}
+
+.list-text p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.list-text p i {
+  color: #fff;
+  font-size: 32px;
+}
+
+.txt1 {
+  margin-top: 10px;
+}
+
+.txt2 {
+  margin-top: 15px;
+}
+
+.box {
+  position: absolute;
+  width: 100%;
+  /*height: 1000px;*/
+  background: #ccc;
+  /*margin-top: 50%;*/
+  z-index: 500;
+}
+
+.area {
+  width: 100%;
+  height: 700px;
+  background-color: #fff;
+}
+
+.area-cot {
+  width: 1206px;
+  height: 700px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.cot-lt {
+  width: 630px;
+  height: 444px;
+  float: left;
+  margin-top: 120px;
+  margin-left: 125px;
+}
+
+.cot-lt h1 {
+  font-size: 36px;
+  color: #434343;
+  line-height: 55px;
+}
+
+.cot-lt h3 {
+  font-size: 20px;
+  color: #868686;
+  line-height: 30px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.show-pic1 {
+  margin-top: 120px;
+}
+
+.phone {
+  display: block;
+  float: right;
+  margin-right: 132px;
+  margin-top: 50px;
+}
+
+.area2 {
+  width: 100%;
+  height: 800px;
+  background-color: #eaeaea;
+  
+}
+
+.area2-cot {
+  width: 1206px;
+  height: 700px;
+  background-color: #eaeaea;
+  margin: 0 auto;
+}
+
+.phone2 {
+  display: block;
+  float: left;
+  margin-left: 132px;
+  margin-top: 50px;
+}
+
+.cot-rt {
+  width: 600px;
+  height: 512px;
+  float: right;
+  margin-top: 140px;
+  margin-right: 128px;
+}
+
+.cot-rt h1 {
+  font-size: 36px;
+  color: #434343;
+  line-height: 55px;
+  text-align: right;
+}
+
+.cot-rt h3 {
+  font-size: 20px;
+  color: #868686;
+  line-height: 30px;
+  text-align: right;
+}
+
+.show-pic2 {
+  margin-top: 50px;
+  margin-left: 46px;
+}
+
+.phone2 {
+  margin-top: 110px;
+}
+
+.show-pic3 {
+  margin-top: 20px;
+  margin-left: -40px;
+}
+
+.area4 {
+  width: 100%;
+  height: 497px;
+  background-image: url(../img/area4.jpg);
+  background-color: #1d2f50;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.area4-cot {
+  width: 1206px;
+  height: 497px;
+  margin: 0 auto;
+}
+
+.phone4 {
+  display: block;
+  float: left;
+  margin-top: -55px;
+}
+
+.cot-rt2 {
+  width: 600px;
+  height: 190px;
+  background: red;
+  float: right;
+  margin-top: 140px;
+  /*margin-left: 125px;*/
+}
+
+.cot-rt2 img {
+  display: block;
+  float: left;
+}
+
+.area4-cots {
+  width: 330px;
+  height: 190px;
+  float: right;
+}
+
+.area4-cot p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+  text-align: right;
+}
+
+.cot-rt4 {
+  width: 600px;
+  height: 190px;
+  /*background: red;*/
+  float: right;
+  margin-top: 202px;
+  /*margin-left: 125px;*/
+}
+
+.cot-rt4 .ma {
+  margin-top: -36px;
+}
+
+.ios2 {
+  display: inline-block;
+  width: 156px;
+  height: 47px;
+}
+
+.and2 {
+  display: inline-block;
+  width: 154px;
+  height: 47px;
+}
+
+.download2 {
+  margin-top: 45px;
+}
+
+.height800 {
+  height: 800px;
+}
+
+.footer {
+  width: 100%;
+  height: 160px;
+  background-color: #2c2c2c;
+  
+}
+
+.footer-cot {
+  width: 1206px;
+  height: 160px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.footer-txt1 {
+  font-size: 16px;
+  color: #c1c1c1;
+  margin-top: 62px;
+  text-align: center;
+}
+
+.footer-txt2 {
+  margin-top: 17px;
+  font-size: 16px;
+  color: #525252;
+  text-align: center;
+}
+
+.logo2 {
+  float: right;
+  width: 188px;
+  height: 73px;
+  margin-top: -90px;
+}
+
+.pnpark {
+  position: absolute;
+  top: 30px;
+  left: -58px;
+  display: none;
+}
+
+.ma2 {
+  position: absolute;
+  top: 47px;
+  left: -47px;
+  z-index: 10;
+  display: none;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
